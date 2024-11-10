@@ -1,5 +1,5 @@
-age = int(input("p"))
-if age > 17:
-    print("1")
+age = int(input("введите свой возрост: "))
 if age < 18:
-    print('0')
+    print("вам еще нету 18 лет")
+if age > 17:
+    print('добро пожаловать')
